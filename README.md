@@ -2,8 +2,8 @@
 
 ## Objectives
 
-1. Practice using the `React.Children` utilities
-2. Explain how to use `this.props.children` to build reusable components
+1. Explain how to use `this.props.children` to build reusable components
+2. Practice using the `React.Children` utilities
 
 ## Overview
 
