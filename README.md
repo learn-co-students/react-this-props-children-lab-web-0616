@@ -1,9 +1,8 @@
 # React this.props.children Lab
 
-## Objectives
+## Overview
 
-1. Explain how to use `this.props.children` to build reusable components
-2. Practice using the `React.Children` utilities
+In this lab, you'll use `this.props.children` to build reusable components and use `React.Children` utilities
 
 ## The party planner
 ![Organizing a party](https://media.giphy.com/media/l2JdSrBGOtj0UpLOM/giphy.gif)
