@@ -2,19 +2,26 @@
 
 ## Objectives
 
-1. Practice using the `React.Children` utilities
-2. Explain how to use `this.props.children` to build reusable components
+1. Explain how to use `this.props.children` to build reusable components
+2. Practice using the `React.Children` utilities
 
-## Overview
+## The party planner
+![Organizing a party](https://media.giphy.com/media/l2JdSrBGOtj0UpLOM/giphy.gif)
 
-Have students write containing components as well as use predefined components
-to practice leveraging `this.props.children` and the `React.Children` API.
+Let's throw a party! The first thing we'll need is an invitation we can send to people, with a customized message:
 
-This should be a fairly straightforward lab — we can just build on the stuff
-that we've covered in the reading — but as usual, it'll be A+ if we can frame
-the students' work with a compelling framing narrative.
+1. In the `components/Invitation.js` file, create an `Invitation` React component.
+2. This component renders out a `h1` with the text `'You have been invited!'`.
+2. After this `h1`, you render out any children that are passed into the `Invitation` component. This allows us to
+customize the message.
+
+A good party also has a theme and decorations that match. Let's create a component that takes its children and adds an
+additional prop to them. This way we can pass in the theme to our decorations by wrapping them in this component.
+
+1. In the `components/ThemedDecorations.js` file, create a `ThemedDecorations` React component.
+2. This component renders out all of its children, while adding a `className` prop to every child.
+
 
 ## Resources
-
 - [React.Children](https://facebook.github.io/react/docs/top-level-api.html#react.children)
 - [Children prop types](https://facebook.github.io/react/tips/children-props-type.html)
