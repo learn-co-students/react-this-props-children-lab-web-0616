@@ -1,8 +1,8 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const Invitation = require('./components/Invitation');
-const ThemedParty = require('./components/ThemedDecorations');
+import Invitation from './components/Invitation';
+import ThemedParty from './components/ThemedDecorations';
 
 ReactDOM.render(
   <div>
