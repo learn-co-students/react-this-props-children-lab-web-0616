@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class Invitation extends React.Component {
+export default class Invitation extends React.Component {
   render() {
     return (
       <div>
@@ -10,5 +10,3 @@ class Invitation extends React.Component {
     );
   }
 }
-
-module.exports = Invitation;

@@ -1,8 +1,8 @@
-const React = require('react');
-const { shallow } = require('enzyme');
+import React from 'react';
+import { shallow } from 'enzyme';
 
-const Invitation = require('../components/Invitation');
-const ThemedDecorations = require('../components/ThemedDecorations');
+import Invitation from '../components/Invitation';
+import ThemedDecorations from '../components/ThemedDecorations';
 
 const INVITATION_CONTENT = <p>Come to this awesome party!</p>;
 

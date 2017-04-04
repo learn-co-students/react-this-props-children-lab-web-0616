@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class ThemedDecorations extends React.Component {
+export default class ThemedDecorations extends React.Component {
   render() {
     const childrenWithExtraProp = React.Children.map(this.props.children, child => {
       return React.cloneElement(child, {
@@ -15,5 +15,3 @@ class ThemedDecorations extends React.Component {
     );
   }
 }
-
-module.exports = ThemedDecorations;
