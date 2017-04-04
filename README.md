@@ -10,7 +10,7 @@ In this lab, you'll use `this.props.children` to build reusable components and u
 Let's throw a party! The first thing we'll need is an invitation we can send to people, with a customized message:
 
 1. In the `components/Invitation.js` file, create an `Invitation` React component.
-2. This component renders out a `h1` with the text `'You have been invited!'`.
+2. This component renders out a `h1` with the text `'You've been invited!'`.
 2. After this `h1`, you render out any children that are passed into the `Invitation` component. This allows us to customize the message.
 
 A good party also has a theme and decorations that match. Let's create a component that takes its children and adds an additional prop to them. This way we can pass in the theme to our decorations by wrapping them in this component.
@@ -22,3 +22,5 @@ A good party also has a theme and decorations that match. Let's create a compone
 ## Resources
 - [React.Children](https://facebook.github.io/react/docs/top-level-api.html#react.children)
 - [Children prop types](https://facebook.github.io/react/tips/children-props-type.html)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/react-this-props-children-lab'>this.props.children Lab</a> on Learn.co and start learning to code for free.</p>
