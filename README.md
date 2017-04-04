@@ -22,5 +22,3 @@ A good party also has a theme and decorations that match. Let's create a compone
 ## Resources
 - [React.Children](https://facebook.github.io/react/docs/top-level-api.html#react.children)
 - [Children prop types](https://facebook.github.io/react/tips/children-props-type.html)
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/react-this-props-children-lab'>this.props.children Lab</a> on Learn.co and start learning to code for free.</p>
