@@ -1,9 +1,11 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
-
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import Invitation from '../src/components/Invitation';
 import ThemedDecorations from '../src/components/ThemedDecorations';
+
+Enzyme.configure({ adapter: new Adapter() })
 
 const INVITATION_CONTENT = <p>Come to this awesome party!</p>;
 

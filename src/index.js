@@ -13,5 +13,5 @@ ReactDOM.render(
       <p>A last decoration</p>
     </ThemedParty>
   </div>,
-  document.getElementById('root')
+  document.getElementById('global')
 );
